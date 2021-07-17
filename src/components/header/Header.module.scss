@@ -1,0 +1,22 @@
+@import "../../styles/index";
+
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  background-color: $backgroundHeader;
+  .header__inner {
+    padding: 30px;
+
+    .header__logo {
+      font-size: 2rem;
+      color: $logoColor1;
+
+      .header__logo_big {
+        color: $logoColor2;
+        font-weight: 800;
+      }
+    }
+  }
+}
+

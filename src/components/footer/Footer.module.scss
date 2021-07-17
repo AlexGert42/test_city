@@ -1,0 +1,16 @@
+@import "../../styles/index";
+
+.footer {
+  width: 100%;
+  margin-top: auto;
+  background-color: $backgroundFooter;
+
+  .footer__inner {
+    padding: 30px;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+  }
+}

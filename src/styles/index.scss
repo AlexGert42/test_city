@@ -1,0 +1,32 @@
+@import 'defaultStyles';
+
+$colorText: #585858;
+$colorTitle: #939393;
+$backgroundBase: #fff;
+$backgroundHeader: #616161;
+$backgroundSidebar: #f5f4f4;
+$backgroundFooter: #616161;
+$backgroundTable: #f6f4f4;
+$boxShadowBase: 0px 0px 1px 0px rgba(34, 60, 80, 0.5) inset;
+$logoColor1: #0804c4;
+$logoColor2: #ff7c00;
+
+.wrapper {
+  max-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.conteiner {
+  max-width: 1920px;
+  //min-width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: $backgroundBase;
+  color: $colorText;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+}

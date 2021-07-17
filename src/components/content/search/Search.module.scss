@@ -1,0 +1,57 @@
+@import "../../../styles/index";
+
+.form {
+  width: 100%;
+  margin: 20px 0;
+
+  .form__input {
+    width: 80%;
+    padding: 15px;
+    box-shadow: $boxShadowBase;
+  }
+
+  .form__btn {
+    position: relative;
+    width: 20%;
+    padding: 15px;
+    cursor: pointer;
+    text-transform: capitalize;
+    box-shadow: $boxShadowBase;
+    background-color: $backgroundTable;
+    overflow: hidden;
+    font-weight: 600;
+    color: $colorTitle;
+
+    &:hover {
+      &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        width: 5px;
+        height: 5px;
+        box-shadow: 0px 0px 1px 0px rgba(34, 60, 80, 1) inset;
+        animation: decorBtn 1.5s;
+        @keyframes decorBtn {
+          0% {
+            width: 5px;
+            height: 5px;
+          }
+          100% {
+            width: 500px;
+            height: 500px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
