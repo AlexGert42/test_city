@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/test_city/static/css/main.7ab4c810.chunk.css",
-    "main.js": "/test_city/static/js/main.88f49529.chunk.js",
-    "main.js.map": "/test_city/static/js/main.88f49529.chunk.js.map",
+    "main.css": "/test_city/static/css/main.cdfb358f.chunk.css",
+    "main.js": "/test_city/static/js/main.7810cfe7.chunk.js",
+    "main.js.map": "/test_city/static/js/main.7810cfe7.chunk.js.map",
     "runtime-main.js": "/test_city/static/js/runtime-main.038ae1f2.js",
     "runtime-main.js.map": "/test_city/static/js/runtime-main.038ae1f2.js.map",
     "static/js/2.536581e4.chunk.js": "/test_city/static/js/2.536581e4.chunk.js",
     "static/js/2.536581e4.chunk.js.map": "/test_city/static/js/2.536581e4.chunk.js.map",
     "index.html": "/test_city/index.html",
-    "static/css/main.7ab4c810.chunk.css.map": "/test_city/static/css/main.7ab4c810.chunk.css.map",
+    "static/css/main.cdfb358f.chunk.css.map": "/test_city/static/css/main.cdfb358f.chunk.css.map",
     "static/js/2.536581e4.chunk.js.LICENSE.txt": "/test_city/static/js/2.536581e4.chunk.js.LICENSE.txt",
     "static/media/Sidebar.module.scss": "/test_city/static/media/arrow_sidebar.480891f5.svg",
     "static/media/Table.module.scss": "/test_city/static/media/arrow_table.01cb89e9.svg",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.038ae1f2.js",
     "static/js/2.536581e4.chunk.js",
-    "static/css/main.7ab4c810.chunk.css",
-    "static/js/main.88f49529.chunk.js"
+    "static/css/main.cdfb358f.chunk.css",
+    "static/js/main.7810cfe7.chunk.js"
   ]
 }
