@@ -8,6 +8,10 @@
     width: 80%;
     padding: 15px;
     box-shadow: $boxShadowBase;
+
+    &::placeholder {
+      color: $colorTitle;
+    }
   }
 
   .form__btn {

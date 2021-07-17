@@ -35,6 +35,7 @@ export const Search = ({carsArray, searchValue, filterYear}) => {
                 type="text"
                 value={valueInput}
                 onChange={chengeInputForm}
+                placeholder={'Введите марку, модель, год производства'}
             />
             <button className={style.form__btn} type="submit">поиск</button>
         </form>

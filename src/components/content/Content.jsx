@@ -12,13 +12,8 @@ import {
     tableReducer
 } from "../../context/tableReducer";
 import axios from "axios";
-
 import style from './Content.module.scss'
 import {Loader} from "./spinerLoader/Loader";
-
-
-
-
 
 
 export const Content = () => {

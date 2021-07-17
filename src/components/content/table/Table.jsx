@@ -40,10 +40,8 @@ export const Table = ({allArray, sortArray, focusValue, filterYear}) => {
     }
     useEffect(sortList, [array])
 
-    const focusRow = (value) => {
-        debugger
-        focusValue(value)
-    }
+    const focusRow = (value) => focusValue(value)
+
 
     return (
         <table className={style.table}>

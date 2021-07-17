@@ -18,9 +18,10 @@ $logoColor2: #ff7c00;
   flex-direction: column;
   margin: 0 auto;
 }
+
 .conteiner {
   max-width: 1920px;
-  //min-width: 1024px;
+  min-width: 1024px;
   height: 100%;
   margin: 0 auto;
   background-color: $backgroundBase;

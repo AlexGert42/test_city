@@ -8,6 +8,7 @@
   margin-top: 100px;
   background-color: $backgroundSidebar;
   transition: margin-left 1s;
+
   .sidebar__inner {
     padding: 30px;
     color: $colorTitle;
@@ -16,6 +17,7 @@
     font-weight: 800;
     text-align: center;
   }
+
   .sidebar__btn {
     cursor: pointer;
     background-color: #00000000;
@@ -33,14 +35,16 @@
     transition: left 1s;
     z-index: 1;
   }
+
   &.active {
     margin-left: 0;
     transition: margin-left 1s;
+
     .sidebar__btn {
       left: 310px;
       transition: left 1s;
-      -webkit-transform:rotate(0deg);
-      -moz-transform:rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
       transform: rotate(0deg);
     }
   }
